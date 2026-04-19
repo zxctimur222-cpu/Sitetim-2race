@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #05070d;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #1e6bff33, transparent);
+}
+
+.logo-img {
+  width: 120px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 0 15px #1e6bff);
+}
+
+.logo-text {
+  font-size: 42px;
+  transform: skew(-10deg);
+  text-shadow: 0 0 10px #1e6bff, 0 0 30px #1e6bff;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+nav button {
+  margin: 5px;
+  padding: 12px 24px;
+  background: transparent;
+  border: 1px solid #1e6bff;
+  color: #1e6bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  background: #1e6bff;
+  color: black;
+  box-shadow: 0 0 20px #1e6bff;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h2 {
+  text-shadow: 0 0 10px #1e6bff;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #0a0a0a;
+}
+
+/* анимация */
+.fade {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 1s;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
